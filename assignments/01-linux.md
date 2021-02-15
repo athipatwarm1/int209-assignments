@@ -1,17 +1,17 @@
 ```bash
 cd ..
-sudo mkdir folder1
-cd folder1
-sudo mkdir folderA folderB folderC
-sudo touch text1.txt
-sudo cp text1.txt text2.txt
-sudo cp text1.txt text3.txt
+sudo mkdir wipcamp12
+cd wipcamp12
+sudo mkdir programmer website network ux-ui
+sudo touch slide01.txt
+sudo cp slide01.txt slide02.txt
+sudo cp slide01.txt slide03.txt
 cd ..
-sudo cp -r folder1 folder2
-cd folder2
-sodo rm text3.txt
-cd ../folder1
-sudo mv text1.txt ../folder2/newtext.txt
+sudo cp -r wipcamp12 wipcamp13
+cd wipcamp13
+sodo rm slide03.txt
+cd ../wipcamp12
+sudo mv slide01.txt ../wipcamp13/newslide.txt
 cd ..
-sudo rm -r folder1 folder2
+sudo rm -r wipcamp12 wipcamp13
 ```
